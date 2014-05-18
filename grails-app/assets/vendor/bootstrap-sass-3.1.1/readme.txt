@@ -1,0 +1,1 @@
+These files were copied directly from the vendor/assets folder in the bootstrap-sass-3.1.1 distribution.
