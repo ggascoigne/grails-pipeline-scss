@@ -1,0 +1,8 @@
+
+// set the font path to match the default scss bootstrap asset layout
+$icon-font-path: "fonts/bootstrap/" !default;
+
+// I can't seem to get _variables to override implicitly so I'm just importing this explicitly here.
+@import "variables";
+
+@import "bootstrap-sass-3.1.1/stylesheets/bootstrap";

@@ -2,10 +2,11 @@
 //
 // Any JavaScript file within this directory can be referenced here using a relative path.
 //
-// You're free to add application-wide JavaScript to this file, but it's generally better 
+// You're free to add application-wide JavaScript to this file, but it's generally better
 // to create separate JavaScript files as needed.
 //
 //= require jquery
+//= require bootstrap-sass-3.1.1/javascript/bootstrap
 //= require_tree .
 //= require_self
 

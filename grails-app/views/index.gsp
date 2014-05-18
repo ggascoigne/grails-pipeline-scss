@@ -104,19 +104,11 @@
 		</div>
 		<div id="page-body" role="main">
 			<h1>Welcome to Grails</h1>
-			<p>Congratulations, you have successfully started your first Grails application! At the moment
-			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
-			   content you may choose. Below is a list of controllers that are currently deployed in this application,
-			   click on each to execute its default action:</p>
+			<p>Assuming that the 'Welcome to Grails' title is RED, then this test is correctly overriding the colors in
+            the stylesheet.</p>
 
-			<div id="controller-list" role="navigation">
-				<h2>Available Controllers:</h2>
-				<ul>
-					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-					</g:each>
-				</ul>
-			</div>
+            <h1><i class="glyphicon glyphicon-asterisk"></i> Icon Test <i class="glyphicon-asterisk"></i></h1>
+            <p>If the before and after asterisks are the same then the font path is broken, if they differ then the glyphicon font is loading correctly</p>
 		</div>
 	</body>
 </html>
